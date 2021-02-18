@@ -1,7 +1,7 @@
-var userRoutes = require("./userRoutes")
+const UserRoutes = require("./UserRoutes")
 
 module.exports = {
-    UserRoutes: userRoutes
+    UserRoutes: UserRoutes
 }
 
 

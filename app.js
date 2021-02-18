@@ -13,7 +13,6 @@ var app = express();
 middlewareConfigurations(app)
 routesConfiguration(app)
 errorConfiguration(app)
-dbContext.testConnection().catch(console.dir)
 
 // error handler
 app.use(function(err, req, res, next) {

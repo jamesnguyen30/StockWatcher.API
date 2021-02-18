@@ -1,24 +1,14 @@
 //Test db URL link: https://cloud.mongodb.com/v2/602ddad640058172dab8bdc8#clusters
 const {MongoClient} = require("mongodb")
+const mongoose = require("mongoose")
 // Remote URL STRING to Remote MongoDB
-const urlString = "mongodb+srv://jamesnguyendev:Nguyen@2021@stockwatch.beebw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const connectionString = "mongodb+srv://jamesnguyendev:Nguyen@2021@stockwatch.beebw.mongodb.net/sample_mflix?retryWrites=true&w=majority"
 
-function DbContext() {
-}
-
-DbContext.testConnection = async function(){
-    const client = new MongoClient(urlString)
-    try{
-        await client.connect()
-
-        const db = client.db("StockWatch")
-        await db.command({ping: 1})
-        console.log("Connected Succesfully")
-    } finally { 
-        await client.close()
+mongoose.connect(connectionString, { useNewUrlParser: true }, (err)=>{
+    if(err){
+        console.log("Failed to connect to db")
+    } else {
+        console.log("Conncted to db")
     }
-}
 
-module.exports = DbContext
-
-
+})
