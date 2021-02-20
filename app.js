@@ -6,7 +6,7 @@ var express = require('express');
 var middlewareConfigurations = require("./configurations/middlewareConfig")
 var routesConfiguration = require("./configurations/routesConfig")
 var errorConfiguration = require("./configurations/errorConfig")
-var dbContext = require("./configurations/mongoDbConfig")
+var mongoDbConfig = require("./configurations/mongoDbConfig")
 
 var app = express();
 
