@@ -1,11 +1,8 @@
-<<<<<<< HEAD
+.DS_Store
 
-# Created by https://www.toptal.com/developers/gitignore/api/node
-# Edit at https://www.toptal.com/developers/gitignore?templates=node
-
+#
+#
 ### Node ###
-=======
->>>>>>> 69a26914296567decb26214c5a8bb0f303d2d414
 # Logs
 logs
 *.log
@@ -61,12 +58,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-<<<<<<< HEAD
 # Optional stylelint cache
 .stylelintcache
 
-=======
->>>>>>> 69a26914296567decb26214c5a8bb0f303d2d414
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -85,17 +79,11 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
-<<<<<<< HEAD
 .env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
-=======
-
-# parcel-bundler cache (https://parceljs.org/)
-.cache
->>>>>>> 69a26914296567decb26214c5a8bb0f303d2d414
 
 # Next.js build output
 .next
@@ -106,11 +94,7 @@ dist
 
 # Gatsby files
 .cache/
-<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and not Next.js
-=======
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
->>>>>>> 69a26914296567decb26214c5a8bb0f303d2d414
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -128,11 +112,8 @@ dist
 
 # TernJS port file
 .tern-port
-<<<<<<< HEAD
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
 # End of https://www.toptal.com/developers/gitignore/api/node
-=======
->>>>>>> 69a26914296567decb26214c5a8bb0f303d2d414

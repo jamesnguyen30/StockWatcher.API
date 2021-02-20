@@ -8,7 +8,6 @@ const apiResponse = require("../helpers/apiResponse")
 exports.allUserList = function(req,res) { 
     try{
         User.find({}, "_id name email password").then(users=>{
-            console.log(users)
             if (users.length != 0){
                 return apiResponse.successResponseWithData(res, "Success", users)
             } else {
