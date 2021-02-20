@@ -1,4 +1,4 @@
-const User = require("../models/schemas/UserSchema")
+const User = require("../models/schemas/userSchema")
 const apiResponse = require("../helpers/apiResponse")
 
 // function BookResponse(rawData) { 
